@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous"
+  />
+</head>
+<body>
+    <h1 class="text-center mt-2">PREGUNTAS CORRECTAS E INCORRRECTAS</h1>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-4">
+                    <div class="form-group">
+                        <label for="">Incorrectas</label>
+                        <input type="number" id="corr" class="form-control" placeholder="Preguntas Correctas">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="form-group">
+                        <label for="">Incorrectas</label>
+                        <input type="number" id="incorr" class="form-control" placeholder="Preguntas Incorrectas">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="form-group">
+                        <label for="">Sin Contestar</label>
+                        <input type="number" id="enblanco" class="form-control" placeholder="Preguntas Sin Contestar">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button id="btn-Calcular" class="btn btn-outline-warning">
+                        Calcular Resultado de las Preguntas
+                    </button>
+                </div>
+            </div>
+            <div id="CalcularPreguntas" class="alert alert-success mt-5" role="alert">
+                Resultado de las Preguntas
+              </div>
+        </div>
+    </div>
+
+    <script src="../js/CorrectasIncorrectas.js"></script>
+</body>
+</html>

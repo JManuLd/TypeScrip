@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous"
+  />
+</head>
+<body>
+    <h1 class="text-center mt-2">Distancia de los Puntos</h1>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        <label for="">Distancia X1</label>
+                        <input id="X1" type="number" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        <label for="">Distancia X2</label>
+                        <input id="X2" type="number" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        <label for="">Distancia Y1</label>
+                        <input id="Y1" type="number" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        <label for="">Distancia Y2</label>
+                        <input id="Y2" type="number" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button id="btn-distancia" class="btn btn-outline-warning">Calcular la Distancia</button>
+                </div>
+            </div>
+            <div id="ResultadoDistancia" class="alert alert-warning mt-5" role="alert">
+                Resultado del Area
+            </div>
+        </div>
+    </div>
+    <script src="../js/distancia_puntos.js"></script>
+</body>
+</html>

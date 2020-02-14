@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distancia Recorrida</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+    <h1 class="text-center mt-2">Distancia Recorrida</h1>
+    <div class="container">
+        <div class="jumbotron">
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-group">
+                        <label for="" class="text-center">Velocidad</label>
+                        <input type="number" class="form-control" placeholder="Velocidad" id="vel">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-group">
+                        <label for="">Tiempo</label>
+                        <input type="number" class="form-control" placeholder="Tiempo" id="tim">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button id="btn-MetrosSegundos" class="btn btn-outline-Danger btn-block">
+                        Distancia Recorrida
+                    </button>
+                </div>
+            </div>
+
+            <div id="DistanciaRecorrida" class="alert alert-warning mt-5" role="alert">
+                    Distancia Recorrida
+              </div>
+        </div>
+    </div>
+
+    <script src="../js/CalcloDistancia.js"></script>
+</body>
+</html>

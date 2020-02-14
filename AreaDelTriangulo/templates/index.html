@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous"
+  />
+</head>
+<body>
+    <h1 class="text-center">Area Del Triangulo Utilizando Formula de Semiperimetro</h1>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-4">
+                    <div class="form-group">
+                        <label for="">Ingrese el lado A</label>
+                        <input type="number" id="LadoA" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="form-group">
+                        <label for="">Ingrese el lado B</label>
+                        <input id="LadoB" type="number" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="form-group">
+                        <label for="">Ingrese el lado C</label>
+                        <input id="LadoC" type="number" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-group">
+                    <button id="btn-formula" class="btn btn-outline-danger btn-block">
+                        Realizar la Formula
+                    </button>
+                </div>
+            </div>
+            <div id="ResultadoArea" class="alert alert-warning mt-5" role="alert">
+                Resultado del Area
+              </div>
+        </div>
+    </div>
+    <script src="../js/semiperimetro.js"></script>
+</body>
+</html>

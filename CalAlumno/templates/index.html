@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alumno</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1 class="text-center mt-2">Matricula Y Calificacion Del Alumno</h1>
+    <div class="container">
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-12">
+            <div class="form-group">
+              <label for="">Matricula del Alumno</label>
+              <input
+              id="matricula"
+                type="text"
+                placeholder="Ingrese La Matricula del Alumno"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="form-group">
+              <label for="">Primera Calificacion</label>
+              <input
+              id="Calificacion1"
+                type="text"
+                class="form-control"
+                placeholder="Ingresa la primera calificacion"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="form-group">
+              <label for="">Segunda Calificacion</label>
+              <input
+              id="Calificacion2"
+                type="text"
+                class="form-control"
+                placeholder="Ingresar la Segunda Calificacion"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="form-group">
+              <label for="">Tercera Calificacion</label>
+              <input
+                id="Calificacion3"
+                type="text"
+                class="form-control"
+                placeholder="Ingrese la Tercera Calificacion"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="form-group">
+              <label for="">Ingrese la Cuarta Calificacion</label>
+              <input
+              id="Calificacion4"
+                type="text"
+                class="form-control"
+                placeholder="Ingrese la cuarta Calificacion"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="form-group">
+              <label for="">Ingrece la Quinta Calificacion</label>
+              <input
+              id="Calificacion5"
+                type="text"
+                class="form-control"
+                placeholder="Ingrese la Quinta Calificacion"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <button id="btnGenerarCali" class="btn btn-outline-info btn-block">
+              Imprimir La Matricula Y Calificacion
+            </button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <div id="Resultado" class="alert alert-success mt-2" role="alert"></div>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+              <div id="Mat" class="alert alert-success mt-2" role="alert"></div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <script src="../js/MatriculaCalif.js"></script>
+  </body>
+</html>

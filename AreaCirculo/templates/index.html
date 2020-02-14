@@ -5,43 +5,44 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
     <title>Document</title>
     <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-    crossorigin="anonymous"
-  />
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <h1 class="text-aling=center">Area del circulo</h1>
-<div class="container">
-<div class="jumboton">
-    <div class="row">
-      <div class="col-12">
-        <div class="form-group">
-            <label for="">Area Del Circulo</label>
-          <input id="InpRadio" type="number" class="form-control" placeholder="Ingesar el Radio" />
+    <div class="container">
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-12">
+            <div class="form-group">
+              <label for="">Area Del Circulo</label>
+              <input
+                id="InpRadio"
+                type="number"
+                class="form-control"
+                placeholder="Ingesar el Radio"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <button id="btncalcular" class="btn btn-outline-danger btn-block">
+              Realizar Formula
+            </button>
+          </div>
+        </div>
 
+        <div class="row">
+          <div class="col-12">
+            <div id="Resultado" class="alert alert-success" role="alert"></div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-12">
-        
-        <button id="btncalcular" class="btn btn-outline-danger btn-block">
-            Realizar Formula 
-        </button>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-12">
-        <div id="Resultado" class="alert alert-success" role="alert">
-            
-        </div>
-      </div>
-    </div>
-</div>
-</div>
     <script src="../js/circulo.js"></script>
   </body>
 </html>
